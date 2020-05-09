@@ -10,7 +10,7 @@
   * **모였을 때**
     * 요약한 사람이 주도로 리뷰(30분)
 * **학습 내용**
-  * [1주차 - 소프트웨어 공학 소개(younggeun0)]()
+  * [1주차 - 소프트웨어 공학 소개(younggeun0)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week1_summary.md)
   * [2주차 - 소프트웨어 개발 프로세스()]()
   * [3주차 - 계획()]()
   * [4주차 - 요구 분석()]()
