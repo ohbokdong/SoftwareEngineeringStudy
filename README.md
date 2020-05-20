@@ -12,7 +12,7 @@
 * **학습 내용**
   * [1주차 - 소프트웨어 공학 소개(younggeun0)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week1_summary.md)
   * [2주차 - 소프트웨어 개발 프로세스(rlawjddbs)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week2_summary.md)
-  * [3주차 - 계획(younggeun0)]()
+  * [3주차 - 계획(younggeun0)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week3_summary.md)
   * [4주차 - 요구 분석(rlawjddbs)]()
   * [5주차 - 상위 설계(minj0i)]()
   * [6주차 - 하위 설계(sgmsgood)]()
