@@ -58,7 +58,7 @@
 * **여러 전문가가 모여 각자의 의견대로 비용을 산정하고 그 결과를 서로 공유하여 의견을 조율한 뒤, 조율 과정을 반복해 최종적으로 일치되는 결과 값(비용)이 나오면 이를 개발 비용으로 산정하는 방법**
 	* 전문가 판단 기법과 같지만 전문가들의 편견이나 분위기에 영향을 받지 않도록 조정자(Coordinator)를 둠
 
-![01]()
+![01](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/01.png?raw=true)
 
 ## 비용 산정 기법 2 : 상향식 산정 기법
 * **상향식 산정 기법은 프로젝트의 세부 작업 단위별로 비용을 산정한 후 전체 비용을 합산하여 산정하는 방법**
@@ -138,7 +138,7 @@
   * 소프트웨어 개발 생명주기의 전체 단계에서 사용 가능
 * **기능 점수의 기준이 되는 소프트웨어 기능은 크게 데이터 기능과 트랜잭션 기능으로 구분**
 
-![02]()
+![02](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/02.png?raw=true)
 
 
 * **기능 점수 산정 방법**
@@ -151,9 +151,9 @@
 * **간이 기능 점수법 산정**
   * 간이 기능 점수법은 프로젝트 초기 단계에서 평균 복잡도 가중치를 사용하여 기능 점수를 산정
 
-![03]()
+![03](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/03.png?raw=true)
 
-![04]()
+![04](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/04.png?raw=true)
 
 ---
 
@@ -161,7 +161,7 @@
 
 * **SW를 개발하기 위해 어떤 작업이 필요한지 찾은 후, 이를 진행할 순서를 결정하거나 주어진 개발 기간에 소작업의 개발 기간 및 그들 간의 순서, 필요한 자원 등과 같은 일정을 계획하는 것**
 
-![05]()
+![05](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/05.png?raw=true)
 
 
 ### WBS(작업 분할 구조도, Work Breakdown Structure)
@@ -171,7 +171,7 @@
 	* 계층 구조에서 최하위에 있는 항목을 작업 패키지(Work Package)라 함
 		* 작업 패키지는 해당 업무의 담당자를 할당할 수 있을 정도로 작게 나눔
 
-![06]()
+![06](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/06.png?raw=true)
 
 
 ### 네트워크 차트 (PERT, Program Evaluation and Review Technique/ CPM, Critical Path Method) 
@@ -179,14 +179,14 @@
 * PERT/CPM은 WBS의 작업 순서, 소요 기간 등을 네트워크 형태의 그래프로 표현한 후 완료일에 프로젝트를 마치려면 어떤 작업이 중요한지, 또 일정에 여유가 있는 작업은어떤 것인지 찾아내 중점 관리를 해야 하는 작업을 명확히 하는데 사용
 * 프로젝트를 완료할 수 있는 최소 기간은 얼마인지, 완료 기간을 맞추기 위해서는 각 작업을 언제 시작하고 완료해야 하는지, 지연되지 않으려면 어떤 작업에 특히 주의를 기울여야 하는지, 또 전체 프로젝트 완료 기간을 단축하기 위해서는 어떤 작업들을 단축하는 것이 가장 경제적인지 등 관리자의 고민에 답을 주기 위해 필요한 도구
 
-![07]()
+![07](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/07.png?raw=true)
 
 ### 간트차트
 
 * 프로젝트 일정 관리를 위한 바(Bar) 형태의 도구
 * **프로젝트의 주요 활동을 파악한 후 각 활동의 일정을 시작하는 시점과 끝나는 시점을 연결한 막대 모양으로 표시하여 전체 일정을 한눈에 볼 수 있음**
 
-![08]()
+![08](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/08.png?raw=true)
 
 ---
 
@@ -195,7 +195,7 @@
 * 소프트웨어 개발에 방해되는 요소를 파악하고(**위험 요소 식별**), 위험 요소의 발생 확률과 영향도를 평가한 뒤(**위험 분석**), 분석한 결과에 따라 위험 우선순위를 정하여 그에 맞게 대책을 세우는 것
 * **위험 관리 절차**
 
-![09]()
+![09](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week3/09.png?raw=true)
 
 
 
