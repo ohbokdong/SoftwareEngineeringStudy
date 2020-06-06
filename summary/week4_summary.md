@@ -104,6 +104,7 @@ MTBF = MTTF + MTTR
 - `액터`
     - `사용자 액터` : 사람 모양으로 표현. 각 역할별로 구분한 사용자라 할 수 있다.
 ![07](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/week4-07.png)  
-
+  
     - `시스템 액터` : 이미 다른 프로젝트에서 개발되어 개발 예정인 본 시스템과 데이터를 주고받는 등 서로 연동되는 또 다른 시스템.
-    - 이미 개발 되었으므로 개발 범위 밖에 있다.
+![08](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/week4-08.png)
+
