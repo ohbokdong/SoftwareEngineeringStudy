@@ -98,7 +98,8 @@ MTBF = MTTF + MTTR
 #### 유스케이스 다이어그램
 ![05](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/week4-05.png)
 - `유스케이스` : 사용자의 요구를 나타내는 기능. 가장 작은 단위의 기능. 수강 관리, 성적 관리, 교과 과정 관리, 사용자 정보 관리 등
-    - 여기서 관리란 등록/수정/삭제/조회를 모두 포함
+    - 여기서 관리란 등록/수정/삭제/조회를 모두 포함  
+    
 ![06](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/week4-06.png)
 - `액터`
     - `사용자 액터` : 사람 모양으로 표현. 각 역할별로 구분한 사용자라 할 수 있다.
