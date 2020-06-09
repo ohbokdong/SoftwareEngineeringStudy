@@ -16,7 +16,7 @@
   * [3주차 - 계획(younggeun0)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week3_summary.md)
   * [4주차 - 요구 분석(rlawjddbs)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week4_summary.md)
     * [4주차 보충 - Z 명세(rlawjddbs)]()
-  * [5주차 - 상위 설계(minj0i)]()
+  * [5주차 - 상위 설계(minj0i)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week5_summary.md)
   * [6주차 - 하위 설계(sgmsgood)]()
   * [7주차 - 구현(younggeun0)]()
   * [8주차 - 테스트(ch.choi)]()
