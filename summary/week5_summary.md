@@ -177,3 +177,117 @@
 
 #### 데이터 흐름 모델
 ![데이터흐름](https://slidesplayer.org/slide/14653385/90/images/51/7-5+%EB%8D%B0%EC%9D%B4%ED%84%B0+%ED%9D%90%EB%A6%84+%EB%AA%A8%EB%8D%B8+Pipe+and+filter+%EA%B5%AC%EC%A1%B0.jpg)
+
+## 디자인패턴
+### 디자인 패턴
+- 자주 사용하는 설계 형를 정형화해서 이를 유형별로 설계 템플릿을 만들어 둔 것
+- 효율성과 재사용성을 높일 수 있음
+- 많은 개발자들이 경험으로 체득한 설계 지식을 검증하고 이를 추상화하여 일반화한 템플릿
+[장점]
+- 개발자(설계자) 간의 원활한 의사소통
+- 소프트웨어 구조 파악 용이
+- 재사용을 통한 개발 시간 단축
+- 설계 변경 요청에 대한 유연한 대처
+[단점]
+- 객체지향 설계/구현 위주
+- 초기 투자 비용 부담
+
+### GoF 디자인 패턴
+<table>
+    <tr>
+        <th rowspan=2>생성 패턴</th>
+        <th>기능</th>
+        <td>객체를 생성하는 것과 관련된 패턴<br>
+        객체의 생성과 참조 과정을 추상화함으로써 시스템을 개발할 때 부담을 덜어준다</td>
+    </tr>
+    <tr>
+        <th>종류</th>
+        <td>
+            <ul>
+                <li>factory method</li>
+                <li>singleton</li>
+                <li>prototype</li>
+                <li>builder</li>
+                <li>abstract factory</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th rowspan=2>구조 패턴</th>
+        <th>기능</th>
+        <td>프로그램 내의 자료구조나 인터페이스 구조 등 프로그램의 구조를 설계하는 데 많이 활용할 수 있는 패턴</td>
+    </tr>
+    <tr>
+        <th>종류</th>
+        <td>
+            <ul>
+                <li>adapter</li>
+                <li>compoiste</li>
+                <li>bridge</li>
+                <li>decorator</li>
+                <li>facade</li>
+                <li>flyweight</li>
+                <li>proxy</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th rowspan=2>행위 패턴</th>
+        <th>기능</th>
+        <td>반복적으로 사용되는 객체들의 상호작용을 패턴화한 것으로, 클래스나 객체들이 상호작용하는 방법과 책임을 분산하는 방법을 정의</td>
+    </tr>
+    <tr>
+        <th>종류</th>
+        <td>
+            <ul>
+                <li>template method</li>
+                <li>interpreter</li>
+                <li>iterotor</li>
+                <li>observer</li>
+                <li>strategy</li>
+                <li>visitor</li>
+                <li>chain of responsibility</li>
+                <li>command</li>
+                <li>mediator</li>
+                <li>state</li>
+                <li>memento</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+- 참고 (https://slidesplayer.org/slide/14653385)
+
+![factory](https://slidesplayer.org/slide/14653385/90/images/57/4-1+factory+method+%ED%8C%A8%ED%84%B4+Factory%3A+%EA%B3%B5%EC%9E%A5%2C+%EB%AC%BC%EA%B1%B4%EC%9D%84+%EB%A7%8C%EB%93%9C%EB%8A%94+%EA%B3%B3%28%EB%AC%BC%EA%B1%B4-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%29.jpg)
+![singleton](https://slidesplayer.org/slide/14653385/90/images/58/4-2+Singleton+%ED%8C%A8%ED%84%B4+Singleton%3A+%E2%80%98%EB%8B%A8%EB%8F%85+%EA%B0%9C%EC%B2%B4%E2%80%99%2C+%E2%80%98%EB%8F%85%EC%8B%A0%EC%9E%90%E2%80%99%EB%9D%BC%EB%8A%94+%EB%9C%BB+%EB%A7%90%EA%B3%A0%EB%8F%84+%E2%80%98%EC%A0%95%ED%99%95%ED%9E%88+%ED%95%98%EB%82%98%EC%9D%98+%EC%9A%94%EC%86%8C%EB%A7%8C+%EA%B0%96%EB%8A%94+%EC%A7%91%ED%95%A9%E2%80%99.jpg)
+![prototype](https://slidesplayer.org/slide/14653385/90/images/59/4-3+prototype+%ED%8C%A8%ED%84%B4+new+Object%28+%29%EB%B3%B4%EB%8B%A4+clone%28+%29%EC%9D%84+%EC%9D%B4%EC%9A%A9%ED%95%B4+%EA%B8%B0%EC%A1%B4%EC%9D%98+%EA%B2%83%EC%9D%84+%EB%B3%B5%EC%82%AC%ED%95%98%EC%97%AC+%EC%9D%BC%EB%B6%80%EB%A7%8C+%EB%B0%94%EA%BF%94+%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4+%EC%83%9D%EC%84%B1.+%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9D%B8+prototype%28%EC%9B%90%ED%98%95%29%EC%9D%84+%EB%A7%8C%EB%93%A4%EC%96%B4%EB%86%93%EA%B3%A0%2C+%EA%B7%B8%EA%B2%83%EC%9D%84+%EB%B3%B5%EC%82%AC%ED%95%9C+%ED%9B%84+%ED%95%84%EC%9A%94%ED%95%9C+%EB%B6%80%EB%B6%84%EB%A7%8C+%EC%88%98%EC%A0%95%ED%95%98%EC%97%AC+%EC%82%AC%EC%9A%A9..jpg)
+![builder](https://slidesplayer.org/slide/14653385/90/images/60/4-4+Builder+%ED%8C%A8%ED%84%B4+%EB%B3%B5%EC%9E%A1%ED%95%9C+%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EB%A5%BC+%EC%A1%B0%EB%A6%BD%ED%95%98%EC%97%AC+%EB%A7%8C%EB%93%9C%EB%8A%94+%EA%B5%AC%EC%A1%B0.jpg)
+![abstract](https://slidesplayer.org/slide/14653385/90/images/61/4-5+abstract+factory+%ED%8C%A8%ED%84%B4+abstract+factory%3A+%E2%80%98%EC%B6%94%EC%83%81%EC%A0%81%EC%9D%B8+%EA%B3%B5%EC%9E%A5%E2%80%99%2C.jpg)
+![composite](https://slidesplayer.org/slide/14653385/90/images/62/4-6+Composite+%ED%8C%A8%ED%84%B4+Composite%3A+%E2%80%98%ED%95%A9%EC%84%B1%EC%9D%98%E2%80%99%2C+%E2%80%98%ED%95%A9%EC%84%B1%EB%AC%BC%E2%80%99%2C+%E2%80%98%ED%98%BC%ED%95%A9+%EC%96%91%EC%8B%9D%E2%80%99.jpg)
+![adapter](https://slidesplayer.org/slide/14653385/90/images/64/4-7+adapter+%ED%8C%A8%ED%84%B4%282%29+adapter+%ED%8C%A8%ED%84%B4+%EA%B8%B0%EC%A1%B4+%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC+%EC%9E%AC%EC%82%AC%EC%9A%A9%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8F%84%EB%A1%9D+%EC%A4%91%EA%B0%84%EC%97%90%EC%84%9C+%EB%A7%9E%EC%B6%B0%EC%A3%BC%EB%8A%94+%EC%97%AD%ED%95%A0.jpg)
+![bridge](https://slidesplayer.org/slide/14653385/90/images/65/4-8+bridge+%ED%8C%A8%ED%84%B4+bridge%3A+%E2%80%98%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%9C%EB%8B%A4%E2%80%99+%EB%91%90+%EC%9E%A5%EC%86%8C%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EC%97%AD%ED%95%A0.jpg)
+![decorator](https://slidesplayer.org/slide/14653385/90/images/66/4-9+decorator+%ED%8C%A8%ED%84%B4+Decoration%3A+%E2%80%98%EC%9E%A5%EC%8B%9D%28%ED%8F%AC%EC%9E%A5%29%E2%80%99.jpg)
+![facade](https://slidesplayer.org/slide/14653385/90/images/67/4-10+facade+%ED%8C%A8%ED%84%B4+Fa%C3%A7ade%3A+%E2%80%98%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%95%9E%EC%AA%BD+%EC%A0%95%EB%A9%B4%28%EC%A0%84%EB%A9%B4%29%E2%80%99.jpg)
+![flyweight](https://slidesplayer.org/slide/14653385/90/images/68/4-11+Flyweight+%ED%8C%A8%ED%84%B4+Flyweight%3A+%E2%80%98%28%EA%B6%8C%ED%88%AC%C2%B7%EB%A0%88%EC%8A%AC%EB%A7%81+%EB%93%B1%EC%9D%98%29+%ED%94%8C%EB%9D%BC%EC%9D%B4%EA%B8%89+%EC%84%A0%EC%88%98%28%EB%B3%B4%ED%86%B5+%EC%B2%B4%EC%A4%91+48~51kg+%EC%82%AC%EC%9D%B4%29%E2%80%99%2C+%EC%A6%89+%EA%B0%80%EB%B2%BC%EC%9A%B4+%EA%B2%83.+%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%A5%BC+%EA%B0%80%EB%B3%8D%EA%B2%8C+%ED%95%B4%EC%A4%80%EB%8B%A4%EA%B3%A0+%EC%A7%90%EC%9E%91%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8B%A4..jpg)
+![proxy](https://slidesplayer.org/slide/14653385/90/images/69/4-12+Proxy+%ED%8C%A8%ED%84%B4+Proxy%3A+%E2%80%98%EB%8C%80%EB%A6%AC%EC%9D%B8%E2%80%99%2C+%EC%A6%89+%EB%AD%94%EA%B0%80%EB%A5%BC+%EB%8C%80%EC%8B%A0%ED%95%B4%EC%84%9C+%EC%B2%98%EB%A6%AC%ED%95%98%EB%8A%94+%EA%B2%83.jpg)
+![iterator1](https://slidesplayer.org/slide/14653385/90/images/70/4-13+iterator+%ED%8C%A8%ED%84%B4%281%29+Iterate%3A+%E2%80%98%EB%B0%98%EB%B3%B5%ED%95%98%EB%8B%A4%E2%80%99%2C+iterator%3A+%E2%80%98%EB%B0%98%EB%B3%B5%EC%9E%90%E2%80%99.jpg)
+![iterator2](https://slidesplayer.org/slide/14653385/90/images/71/4-13+iterator+%ED%8C%A8%ED%84%B4%282%29.jpg)
+![observer1](https://slidesplayer.org/slide/14653385/90/images/72/4-14+Observer+%ED%8C%A8%ED%84%B4%281%29+Observer%3A+%E2%80%98%EA%B4%80%EC%B0%B0%ED%95%98%EB%8A%94+%EC%82%AC%EB%9E%8C%E2%80%99%2C+%E2%80%98%EA%B4%80%EC%B0%B0%EC%9E%90%E2%80%99.jpg)
+![observer2](https://slidesplayer.org/slide/14653385/90/images/73/4-14+Observer+%ED%8C%A8%ED%84%B4%282%29.jpg)
+![strategy1](https://slidesplayer.org/slide/14653385/90/images/74/4-15+strategy+%ED%8C%A8%ED%84%B4%281%29+Strategy%3A+%E2%80%98%EC%A0%84%EB%9E%B5%E2%80%99%2C+%E2%80%98%EC%A0%84%EC%88%A0%E2%80%99+%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4+%EA%B0%9C%EB%B0%9C%EC%97%90%EC%84%9C+%EC%A0%84%EB%9E%B5%EC%9D%B4%EB%82%98+%EC%A0%84%EC%88%A0%EC%9D%80+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9C%BC%EB%A1%9C+%EA%B5%AC%ED%98%84.jpg)
+![strategy2](https://slidesplayer.org/slide/14653385/90/images/75/4-15+strategy+%ED%8C%A8%ED%84%B4%282%29+Strategy+%ED%8C%A8%ED%84%B4.jpg)
+![template](https://slidesplayer.org/slide/14653385/90/images/76/4-16+template+method+%ED%8C%A8%ED%84%B4+Template%3A+%ED%95%98%EB%82%98%EC%9D%98+%E2%80%98%ED%8B%80%E2%80%99.jpg)
+![visitor](https://slidesplayer.org/slide/14653385/90/images/77/4-17+Visitor+%ED%8C%A8%ED%84%B4%281%29+Visitor%3A+%E2%80%98%EB%B0%A9%EB%AC%B8%EC%9E%90.jpg)
+![visitor2](https://slidesplayer.org/slide/14653385/90/images/78/4-17+Visitor+%ED%8C%A8%ED%84%B4%282%29+Visitor+%ED%8C%A8%ED%84%B4+%EA%B0%9D%EC%B2%B4%EC%9D%98+%EA%B5%AC%EC%A1%B0%EC%99%80+%EA%B8%B0%EB%8A%A5%EC%9D%84+%EB%B6%84%EB%A6%AC.jpg)
+
+- chain of responsibility
+
+![chainofresponsibility](https://slidesplayer.org/slide/14653385/90/images/79/4-18+chine+of+responsibility+%ED%8C%A8%ED%84%B4%281%29.jpg)
+![chain2](https://slidesplayer.org/slide/14653385/90/images/80/4-18+chine+of+responsibility+%ED%8C%A8%ED%84%B4%282%29.jpg)
+![command](https://slidesplayer.org/slide/14653385/90/images/81/4-19+command+%ED%8C%A8%ED%84%B4%281%29+Command%3A+%E2%80%98%EB%AA%85%EB%A0%B9%EC%96%B4%E2%80%99.jpg)
+![command2](https://slidesplayer.org/slide/14653385/90/images/82/4-19+command+%ED%8C%A8%ED%84%B4%282%29+Command+%ED%8C%A8%ED%84%B4.jpg)
+![mediator](https://slidesplayer.org/slide/14653385/90/images/83/4-20+mediator+%ED%8C%A8%ED%84%B4%281%29+Mediator%3A+%E2%80%98%EC%A4%91%EC%9E%AC%EC%9E%90%E2%80%99%2C+%E2%80%98%EC%A1%B0%EC%A0%95%EC%9E%90%E2%80%99%2C+%E2%80%98%EC%A4%91%EA%B0%9C%EC%9D%B8%E2%80%99.jpg)
+![mediator2](https://slidesplayer.org/slide/14653385/90/images/84/4-20+mediator+%ED%8C%A8%ED%84%B4%282%29.jpg)
+![state](https://slidesplayer.org/slide/14653385/90/images/85/4-21+state+%ED%8C%A8%ED%84%B4+State%3A+%E2%80%98%EC%83%81%ED%83%9C%E2%80%99+%EB%8F%99%EC%9D%BC%ED%95%9C+%EB%8F%99%EC%9E%91%EC%9D%84+%EA%B0%9D%EC%B2%B4+%EC%83%81%ED%83%9C%EC%97%90+%EB%94%B0%EB%9D%BC+%EB%8B%A4%EB%A5%B4%EA%B2%8C+%EC%B2%98%EB%A6%AC%ED%95%B4%EC%95%BC+%ED%95%A0+%EB%95%8C+%EC%82%AC%EC%9A%A9.jpg)
+![memento](https://slidesplayer.org/slide/14653385/90/images/86/4-22+memento+%ED%8C%A8%ED%84%B4+Memento%3A+%E2%80%98%28%EC%82%AC%EB%9E%8C%2C+%EC%9E%A5%EC%86%8C%EB%A5%BC+%EA%B8%B0%EC%96%B5%ED%95%98%EA%B8%B0+%EC%9C%84%ED%95%9C%29+%EA%B8%B0%EB%85%90%ED%92%88%E2%80%99+undo+%EA%B8%B0%EB%8A%A5%EC%9D%84+%EA%B0%9C%EB%B0%9C%ED%95%A0+%EB%95%8C+%EC%9C%A0%EC%9A%A9.jpg)
+![interpreter](https://slidesplayer.org/slide/14653385/90/images/87/4-23+interpreter+%ED%8C%A8%ED%84%B4+Interpreter%3A+%E2%80%98%ED%86%B5%EC%97%AD%EC%9E%90%E2%80%99+%EA%B0%84%EB%8B%A8%ED%95%9C+%EC%96%B8%EC%96%B4%EC%9D%98+%EB%AC%B8%EB%B2%95%EC%9D%84+%EC%A0%95%EC%9D%98%ED%95%98%EA%B3%A0+%ED%95%B4%EC%84%9D%ED%95%98%EB%8A%94+%EB%8D%B0+%EC%82%AC%EC%9A%A9.jpg)
