@@ -44,6 +44,9 @@
       * 코드가 간결하고 명확하게 작성하면 읽기 쉽고 이해하기 쉽고 특정 부분을 찾아 변경하기 용이하여 유지보수가 쉬워짐
   * **개발 시간을 단축**
 
+
+![code_style](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week7/code_style.jpg?raw=true)
+
 ### **명칭에 관한 규칙**
 
 * **클래스명, 변수명, 함수명 같은 명칭은 31자 이내로 정함**
@@ -260,5 +263,11 @@ sizeof(a)
     * 반복문 안에서 반복 중단하기 위핸 break가 여러 개 사용되면 동작을 예측하기 어려움
 * if ~ else 문의 끝은 else 문으로 종료
 
-### 추가 참고자료
+### 추가 정리 - 린트
+
+* **린트(lint) 또는 린터(linter)는 소스 코드를 분석하여 프로그램 오류, 버그, 스타일 오류, 의심스러운 구조체에 표시(flag)를 달아놓기 위한 도구들을 가리킴**([위키](https://ko.wikipedia.org/wiki/%EB%A6%B0%ED%8A%B8_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)))
+  * C 언어 소스 코드를 검사하는 Unix 유틸리티에서 기원함
+* [Javascript 린터 - ES Lint](https://eslint.org/)
+
+### 참고자료
 * [프로그램 표준 코딩 규칙 - 행정안전부](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/doc/%ED%96%89%EC%A0%95%EC%95%88%EC%A0%84%EB%B6%80_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20%ED%91%9C%EC%A4%80%20%EC%BD%94%EB%94%A9%EA%B7%9C%EC%B9%99.pdf)
