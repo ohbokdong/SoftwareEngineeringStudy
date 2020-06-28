@@ -275,30 +275,52 @@ sizeof(a)
     * 반복문 안에서 반복 중단하기 위핸 break가 여러 개 사용되면 동작을 예측하기 어려움
 * if ~ else 문의 끝은 else 문으로 종료
 
-### case 컨벤션
+### Naming Convention
 
-### 카멜 케이스
+* 명명 규칙, 네이밍 컨벤션, 네이밍 규칙, 네이밍 규약, 명명 규약
+  * 식별자의 명칭이 되는 문자열을 결정하기 위한 규칙
+  * 목적: 가독성, 시인성, 효율성
+  * 프로젝트, 프로그래밍 언어, 개발도구 등에 따라 달라질 수 있음
+
+* **카멜 케이스(camelCase)**
+  * 단봉낙타 표기법
+  * 각 단어의 첫 문자를 대문자로 표기하고 붙여쓰되, 맨 처음 문자는 소문자로 표기
 
 ```java
 int thisIsCamelCase = 0;
 ```
 
-### 파스칼 케이스
+* **파스칼 케이스(PascalCase)**
+  * 첫 단어를 대문자로 시작하는 표기법
 
 ```java
 int ThisIsPascalCase = 0;
 ```
 
-### 스네이크 케이스
+* **스네이크 케이스(snake_case)**
+  * 단어를 밑줄문자로 구분하는 표기법
 
 ```java
 int this_snake_case = 0;
 ```
 
-### 케밥 케이스
+* **케밥 케이스(kebab-case)**
+  * 하이픈으로 단어를 연결하는 표기법
+  * HTML5 태그의 id, class 속성으로 흔히 쓰임
+
+```css
+.this-is-kebab-case {
+    ...
+}
+```
+
+* **헝가리안 표기법(Hungarian Notation)**
+  * 형식은 camelCase와 같지만, 맨 앞의 단어가 자료형을 나타내는 접두어
 
 ```java
-int thisIsCamelCase = 0;
+String strName;
+boolean bBusy;
+int nAge;
 ```
 
 ### 추가 정리 - 린트
