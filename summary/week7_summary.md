@@ -71,7 +71,7 @@ int getData() { } // 함수명 소문자로 시작, 동사로 시작
 
 ```c++
 int a, sum = 0;
-int * um += a;
+int *pSum += a;
 ```
 
 ### 소스 형식에 관한 규칙
