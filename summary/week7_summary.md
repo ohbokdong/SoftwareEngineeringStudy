@@ -275,6 +275,32 @@ sizeof(a)
     * 반복문 안에서 반복 중단하기 위핸 break가 여러 개 사용되면 동작을 예측하기 어려움
 * if ~ else 문의 끝은 else 문으로 종료
 
+### case 컨벤션
+
+### 카멜 케이스
+
+```java
+int thisIsCamelCase = 0;
+```
+
+### 파스칼 케이스
+
+```java
+int ThisIsPascalCase = 0;
+```
+
+### 스네이크 케이스
+
+```java
+int this_snake_case = 0;
+```
+
+### 케밥 케이스
+
+```java
+int thisIsCamelCase = 0;
+```
+
 ### 추가 정리 - 린트
 
 * **린트(lint) 또는 린터(linter)는 소스 코드를 분석하여 프로그램 오류, 버그, 스타일 오류, 의심스러운 구조체에 표시(flag)를 달아놓기 위한 도구들을 가리킴**([위키](https://ko.wikipedia.org/wiki/%EB%A6%B0%ED%8A%B8_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)))
