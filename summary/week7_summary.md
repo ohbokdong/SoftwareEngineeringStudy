@@ -44,6 +44,7 @@
       * 코드가 간결하고 명확하게 작성하면 읽기 쉽고 이해하기 쉽고 특정 부분을 찾아 변경하기 용이하여 유지보수가 쉬워짐
   * **개발 시간을 단축**
 
+* [BSD vs K&R Coding Style](https://namu.wiki/w/%EC%BD%94%EB%94%A9%20%EC%8A%A4%ED%83%80%EC%9D%BC)
 
 ![code_style](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week7/code_style.jpg?raw=true)
 
