@@ -2,7 +2,7 @@
 
 ![01](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/z-notation.png)
   
-### 01. 정형명세 (Formal methods)
+### 01 정형명세 (Formal methods)
 
 - #### 정형 명세의 정의  
   
@@ -25,7 +25,7 @@
 
 > 결론적으로 Z 명세(Z Notation)는 위 설명된 정형기법의 종류 중 하나
 
-### 02. 정형명세 언어 Z
+### 02 정형명세 언어 Z
 
 - #### 장점
     - 집합론, 일차논리에 기반을 둔 언어
