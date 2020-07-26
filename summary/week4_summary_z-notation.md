@@ -1,5 +1,7 @@
 # Week 4 보충 - Z 명세 (z-notation)
 
+![01](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/z-notation.png)
+  
 ### 01. 정형명세 (Formal methods)
 
 - #### 정형 명세의 정의  
@@ -34,5 +36,3 @@
 많음
 - Z에서는 오퍼레이션을 전 상태와 후 상태의관계로써 정의하기 때문에 프로토콜과 같이 순차적으로 수행되는 대상을 명세하기에는 어려운 점이 있음
 - 프로토콜 명세를 위해 SPIN, CSP와 같이 통신 명세에 특화된 언어들을 사용하면 시스템의 기능성을 나타내는 데에 있어 많은 제약사항들이 따름.
-
-![01](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/img/week4/z-notation.png)
