@@ -21,5 +21,5 @@
   * [7주차 - 구현(younggeun0)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week7_summary.md)
   * [8주차 - 테스트(ch.choi)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week8_summary.md)
   * [9주차 - 품질(ch.choi)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week9_summary.md)
-  * [10주차 - 프로젝트 관리(sgmsgood)]()
+  * [10주차 - 프로젝트 관리(sgmsgood)](https://github.com/ohbokdong/SoftwareEngineeringStudy/blob/master/summary/week10_summary.md)
  
